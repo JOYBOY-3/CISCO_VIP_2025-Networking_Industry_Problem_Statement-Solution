@@ -1,13 +1,13 @@
 # Cisco VIP 2025 – Networking Stream Problem Statement Solution
-<div><b>By Sourabh Kumar Gupta</b></div>
-<div><b>AICTE ID : STU67619c38731771734450232</b></div>
-<div><b>EMAIL ID : sourabhkrgupta720@gmail.com</b></div>
-<div><b>University Enrollment ID : SBU2401957</b></div>
-<div><b>Department : MCA</b></div>
-<div><b>University : Sarala Birla University, Ranchi</b></div>
-<div><b>Instructor : Dr. Pankaj K. Goswami & Mr. Bikram Pratap Singh</b></div>
-<br>
-<br>
+<h4><div>By Sourabh Kumar Gupta</div>
+<div>AICTE ID : STU67619c38731771734450232</div>
+<div>EMAIL ID : sourabhkrgupta720@gmail.com</div>
+<div>University Enrollment ID : SBU2401957</div>
+<div>Department : MCA</div>
+<div>University : Sarala Birla University, Ranchi</div>
+<div>Instructor : Dr. Pankaj K. Goswami & Mr. Bikram Pratap Singh</div>
+</h4>
+
 
 ## 📌 Overview
 This project implements a solution for the Cisco Virtual Internship Program (VIP) 2025 Networking Stream problem statement.  
