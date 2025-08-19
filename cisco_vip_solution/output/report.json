@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "nodes": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "edges": [
+      "R1-S1",
+      "R1-R2",
+      "R2-R3",
+      "R3-S1"
+    ]
+  },
+  "issues": [
+    {
+      "type": "mtu_mismatch",
+      "link": "R1-R2",
+      "mtu_a": 1500,
+      "mtu_b": 1400
+    },
+    {
+      "type": "missing_component",
+      "device": "S1"
+    },
+    {
+      "type": "loop_detected"
+    }
+  ],
+  "capacity": {
+    "vlan_loads": {
+      "10": {
+        "peak": 1100,
+        "avg": 250
+      },
+      "20": {
+        "peak": 80,
+        "avg": 20
+      }
+    },
+    "recommendations": [
+      {
+        "type": "insufficient_link_capacity",
+        "link": "R1-S1",
+        "vlan": 10,
+        "peak_demand_mbps": 1100,
+        "link_bw_mbps": 500,
+        "recommendation": "Activate secondary path for low-priority traffic or increase link capacity."
+      },
+      {
+        "type": "insufficient_link_capacity",
+        "link": "R3-S1",
+        "vlan": 10,
+        "peak_demand_mbps": 1100,
+        "link_bw_mbps": 200,
+        "recommendation": "Activate secondary path for low-priority traffic or increase link capacity."
+      }
+    ]
+  }
+}

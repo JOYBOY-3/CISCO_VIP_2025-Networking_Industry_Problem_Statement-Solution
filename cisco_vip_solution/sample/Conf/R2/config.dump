@@ -1,0 +1,5 @@
+hostname R2
+interface Gig0/0 ip 10.0.1.2/24 vlan 20 mtu 1500 bw_mbps 800 connected R1:Gig0/1
+interface Gig0/1 ip 10.0.2.1/24 vlan 20 mtu 1500 bw_mbps 800 connected R3:Gig0/0
+gateway vlan20 10.0.1.254
+endpoint IoT1 vlan 20 app iot peak_mbps 80 avg_mbps 20

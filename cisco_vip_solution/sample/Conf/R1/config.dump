@@ -1,0 +1,5 @@
+hostname R1
+interface Gig0/0 ip 10.0.0.1/24 vlan 10 mtu 1500 bw_mbps 500 connected S1:Gig1/0/1
+interface Gig0/1 ip 10.0.1.1/24 vlan 20 mtu 1400 bw_mbps 1000 connected R2:Gig0/0
+gateway vlan10 10.0.0.254
+endpoint PC1 vlan 10 app video peak_mbps 600 avg_mbps 150

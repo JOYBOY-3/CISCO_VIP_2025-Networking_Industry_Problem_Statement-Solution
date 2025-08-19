@@ -1,0 +1,1 @@
+[2025-08-19 10:13:35] Node R3 started on port 50002 with neighbors {'R2': 50001}

@@ -1,0 +1,12 @@
+[2025-08-19 10:13:35] Node R1 started on port 50000 with neighbors {'R2': 50001}
+[2025-08-19 10:13:35] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:36] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:36] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:37] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:37] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:38] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:38] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:39] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:39] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:40] R1 recv: HELLO from R2 to R1
+[2025-08-19 10:13:40] R1 recv: HELLO from R2 to R1
